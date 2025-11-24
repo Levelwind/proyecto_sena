@@ -1,134 +1,29 @@
+Problemas del día
 
+Dificultades con la creación de ramas y merges.
 
+Conflictos al mezclar contenidos de notas.md.
 
+Configuración correcta de .gitignore.
 
-\# Proyecto: proyecto sena 
+¿Qué aprendí hoy?
 
+Cómo manejar conflictos de merge.
 
+Cómo crear PRs y revisarlos como en un flujo profesional.
 
+Buenas prácticas al escribir commits claros.
 
+El funcionamiento real de Git en un proyecto colaborativo.
 
-\## Objetivo del proyecto
+¿Qué fue lo más difícil?
 
-El objetivo de este proyecto es desarrollar aprender a utilizar git hub .
+Resolver los conflictos sin eliminar contenido importante.
 
+Entender la diferencia entre ramas, merge y pull request.
 
+Conclusión del taller
 
-\## Integrante
-
-\- Nombre completo: \[sebastian castaño Vargas ]
-
-
-
-\## Fecha
-
-&nbsp;24 de noviembre de 2025
-
-
-
-\## ¿Qué es Git?
-
-Git es un sistema de control de versiones distribuido diseñado para manejar proyectos de software con rapidez y eficiencia. Permite llevar un historial de los cambios realizados en el código, volver a versiones anteriores y colaborar con otras personas sin sobreescribir el trabajo ajeno. Git almacena los cambios en commits que contienen información sobre quién, cuándo y qué se modificó. Al ser distribuido, cada colaborador tiene una copia completa del repositorio, lo que mejora la resiliencia y la velocidad. Git también facilita la creación de ramas para trabajar en funcionalidades aisladas y luego fusionarlas (merge) al proyecto principal. Gracias a sus herramientas de fusión y manejo de conflictos, Git es escalable para proyectos pequeños y grandes. Git se utiliza conjuntamente con servicios remotos como GitHub, GitLab o Bitbucket para sincronizar trabajo entre desarrolladores.
-
-
-
-\## 10 comandos de Git explicados
-
-1\. `git init`  
-
-&nbsp;  Crea un nuevo repositorio Git local en la carpeta actual. Prepara el directorio para empezar a versionar.
-
-
-
-2\. `git clone <url>`  
-
-&nbsp;  Descarga (clona) un repositorio remoto completo a tu máquina local, incluyendo historial de commits y ramas.
-
-
-
-3\. `git status`  
-
-&nbsp;  Muestra el estado actual del repositorio: archivos modificados, sin seguimiento (untracked) y qué se ha preparado para commit.
-
-
-
-4\. `git add <archivo|.>`  
-
-&nbsp;  Añade archivos al área de preparación (staging area) para que formen parte del próximo commit.
-
-
-
-5\. `git commit -m "mensaje"`  
-
-&nbsp;  Crea un nuevo commit con los cambios preparados y un mensaje descriptivo que explica la modificación.
-
-
-
-6\. `git branch`  
-
-&nbsp;  Lista las ramas locales. `git branch <nombre>` crea una rama nueva.
-
-
-
-7\. `git checkout <rama>` o `git switch <rama>`  
-
-&nbsp;  Cambia a otra rama. `git switch -c <rama>` crea y cambia a una nueva rama.
-
-
-
-8\. `git pull origin <rama>`  
-
-&nbsp;  Trae (fetch) y fusiona (merge) los cambios del remoto a tu rama local. Útil para sincronizar trabajo ajeno.
-
-
-
-9\. `git push origin <rama>`  
-
-&nbsp;  Envía (push) tus commits locales a la rama correspondiente en el repositorio remoto.
-
-
-
-10\. `git log --oneline`  
-
-&nbsp;   Muestra el historial de commits de forma compacta. Útil para revisar rápidamente el historial.
-
-
-
-\## Flujo de trabajo recomendado
-
-1\. Trabaja en `main` únicamente para la versión estable; crea ramas para nuevas funcionalidades:
-
-&nbsp;  - `git switch -c feature/nombre-funcionalidad`
-
-2\. Haz commits pequeños y con mensajes claros:
-
-&nbsp;  - `git commit -m "feat: agregar validación de email en registro"`
-
-3\. Antes de subir, actualiza tu rama con los últimos cambios de `main`:
-
-&nbsp;  - `git fetch origin`
-
-&nbsp;  - `git rebase origin/main`  (o `git merge origin/main` si prefieres merge)
-
-4\. Crea un Pull Request (PR) o Merge Request (MR) en la plataforma remota para revisión.
-
-5\. Después de aprobación, fusiona a `main` y elimina la rama de feature.
-
-
-
-\## Problemas encontrados hoy
-
-\- Error al empujar (push): `! \[rejected] main -> main (fetch first)` — el remoto tenía commits que no estaban en local.  
-
-\- Posibles causas: GitHub tenía un commit (README o inicial) y el historial local no coincidía; se intentó `git push` sin sincronizar primero.  
-
-\- Acción tomada: se recomienda realizar `git pull` para integrar los cambios remotos antes de hacer `push`, o forzar (`--force`) \*solo si\* se está absolutamente seguro de sobrescribir el remoto.
-
-
-
-\## Conclusión del día
-
-Hoy se dejó documentada la estructura básica del proyecto y la configuración inicial del repositorio. Se abordó el problema de sincronización con el remoto y se estableció el flujo de trabajo recomendado para evitar conflictos futuros. Próximo paso: implementar la primera funcionalidad en una rama separada y abrir un Pull Request para revisión.
-
-
-
+Este taller me permitió comprender Git de forma práctica.
+Aprendí cómo trabajar con ramas, conflictos, PRs y merges como en un entorno profesional.
+Ahora me siento seguro usando GitHub para proyectos reales.
