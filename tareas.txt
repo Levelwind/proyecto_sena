@@ -1,0 +1,12 @@
+Tareas pendientes:
+- Pendiente: Crear estructura de carpetas
+- Pendiente: Revisar gitignore
+- Pendiente: Probar flujos de merge
+
+Tareas realizadas:
+- Realizada: Configurar repositorio inicial
+- Realizada: Crear primeras ramas
+
+Tareas bloqueadas:
+- Bloqueada: Integración con API
+- Bloqueada: Error en permisos de GitHub
