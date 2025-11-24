@@ -1,2 +1,2 @@
 Notas iniciales
-Notas del estudiante A
+Notas combinadas del equipo
